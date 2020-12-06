@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/assets/runner-up-icon-rounded.png" alt="App Icon" width="200">
+  <img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/readme-assets/runner-up-icon-rounded.png" alt="App Icon" width="200">
   <br>
   Runner MB
   <br>

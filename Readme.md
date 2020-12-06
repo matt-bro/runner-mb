@@ -43,7 +43,7 @@ Clone this application and install pods
 $ git clone https://github.com/matt-bro/runner-mb.git
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd runner-mb
 
 # Install dependencies
 $ pod install

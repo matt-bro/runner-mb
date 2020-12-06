@@ -15,9 +15,9 @@
   <a href="#license">License</a>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/assets/screenshot-1.png" width="225" height="400">
-<img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/assets/screenshot-2.png" width="225" height="400">
-<img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/assets/screenshot-3.png" width="225" height="400">
+<img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/readme-assets/screenshot-1.png" width="225" height="400">
+<img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/readme-assets/screenshot-2.png" width="225" height="400">
+<img src="https://raw.githubusercontent.com/matt-bro/runner-mb/master/readme-assets/screenshot-3.png" width="225" height="400">
 </p>
 
 ## Description

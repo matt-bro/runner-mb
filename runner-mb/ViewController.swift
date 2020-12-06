@@ -164,7 +164,7 @@ class ViewController: UIViewController {
     }
 
     func setupPauseButton() {
-        let btn = RoundButton(color: .magenta)
+        let btn = RoundButton(color: .systemOrange)
         btn.setTitle("Pause", for: .normal)
         btn.isHidden = true
         //startBtn.setTitle("Pause", for: .selected)
@@ -198,7 +198,7 @@ class ViewController: UIViewController {
     }
 
     func setupFinishButton() {
-        let btn = RoundButton(color: .magenta)
+        let btn = RoundButton(color: .systemOrange)
         btn.setTitle("Finish", for: .normal)
         btn.isHidden = true
         //startBtn.setTitle("Pause", for: .selected)
@@ -256,7 +256,8 @@ class ViewController: UIViewController {
         setupStack1()
         setupStack2()
         setupMapDataView()
-        setupSaveButton()
+        //dont need this save for now
+        //setupSaveButton()
     }
 
     func setupBindings() {

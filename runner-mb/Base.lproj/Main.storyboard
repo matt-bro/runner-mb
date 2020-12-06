@@ -45,18 +45,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Runner-mb" id="yVP-Fw-Abf">
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="organize" id="CYL-FE-4z9">
-                                <connections>
-                                    <segue destination="ua1-FZ-LgE" kind="presentation" id="zlt-0M-W1W"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Item" image="wrench" catalog="system" id="i8n-sD-fjE">
-                                <connections>
-                                    <segue destination="3PC-4L-szp" kind="presentation" id="w4k-0O-cHO"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="CYL-FE-4z9">
+                            <connections>
+                                <segue destination="ua1-FZ-LgE" kind="presentation" id="zlt-0M-W1W"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="containerSV" destination="Y6b-Dm-HtT" id="7xZ-2t-W8f"/>
@@ -102,7 +95,7 @@
             <objects>
                 <viewController id="3PC-4L-szp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g0C-qq-j4Z">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td3-45-u6H">
@@ -159,7 +152,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="wrench" catalog="system" width="128" height="120"/>
-    </resources>
 </document>

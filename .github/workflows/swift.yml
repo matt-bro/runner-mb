@@ -14,7 +14,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd runner-mb
-        pod install repo-update
+        pod install --repo-update
       shell: bash
     - uses: ty0x2333/cocoapods-action@master
       with:

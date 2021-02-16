@@ -59,16 +59,13 @@ class Database {
 
     func getRuns() -> [Run] {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Run")
-        //request.predicate = NSPredicate(format: "age = %@", "12")
+        let sort = NSSortDescriptor(key: "startDate", ascending: false)
+        request.sortDescriptors = [sort]
         request.returnsObjectsAsFaults = false
         do {
             let result = try self.persistentContainer.viewContext.fetch(request)
-//            for data in result as! [Run] {
-//                print(data.distance)
-//            }
             return result as! [Run]
         } catch {
-
             print("Failed")
         }
         return []
